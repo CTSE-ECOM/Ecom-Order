@@ -3,7 +3,7 @@ on:
   push:
     branches: [master]
 env:
-  DEPLOYMENT_NAME: ctse-deployment
+  DEPLOYMENT_NAME: order-deployment
   PROJECT_ID: ctse-350410
   GKE_CLUSTER: ctse-cluster
   GKE_ZONE: asia-south1-a
