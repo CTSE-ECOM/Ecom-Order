@@ -7,10 +7,10 @@ metadata:
 spec:
   type: LoadBalancer
   ports:
-  - name: http
-    port: 80
-    protocol: TCP
-    targetPort: 8065
+    - name: http
+      port: 80
+      protocol: TCP
+      targetPort: 8065
   selector:
     app: ctse-app
   sessionAffinity: None
